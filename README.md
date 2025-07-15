@@ -1,4 +1,4 @@
-# Flexbox
+# _Flexbox_
 
 ## Introducción a la sección - Qué es FlexBox
 
