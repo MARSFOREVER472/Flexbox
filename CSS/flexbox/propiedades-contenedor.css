@@ -29,7 +29,27 @@ body
     border: 2px solid #000;
     padding: 40px;
     display: flex;
-    gap: 40px;
+    gap: 10px;
     flex-direction: row; /* SE ALINEAN LAS CAJAS DENTRO DE UN CONTENEDOR POR FILAS. */
     flex-wrap: wrap-reverse; /* ESTAS CAJAS NO PUEDEN SOBREPASAR DE LA LÍNEA DE UN CONTENEDOR, POR LO TANTO, AL ADAPTAR A UN DISPOSITIVO MÓVIL CUALQUIERA POR TAMAÑO, SOBRA ESPACIO POR COLUMNAS DENTRO DE ELLA. */
+
+    /*
+
+        PROPIEDADES DE UN CONTENEDOR:
+
+        1.- "flex-direction" : NOS PERMITE CAMBIAR LA DIRECCIÓN EN LA QUE LOS ITEMS SE POSICIONAN.
+
+            VALORES : row | row-reverse | column | column-reverse 
+
+            EJEMPLO: flex-direction: row;
+
+        2.- "flex-wrap" : NOS PERMITE ESTABLECER SI LOS ELEMENTOS SE PUEDEN ABARCAR MÚLTIPLES LÍNEAS.
+
+            VALORES : nowrap | wrap | wrap-reverse
+
+            EJEMPLO: flex-wrap: wrap;
+
+    */
+
+    justify-content: center;
 }
