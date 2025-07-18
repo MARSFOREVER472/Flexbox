@@ -64,7 +64,8 @@ body
     /* justify-content: center; */
 
     height: 90vh;
+    
     /* align-items: center; */
 
-    align-content: end;
+    align-content: space-around;
 }
