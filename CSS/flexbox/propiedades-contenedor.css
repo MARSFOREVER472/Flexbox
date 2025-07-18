@@ -49,9 +49,15 @@ body
 
             EJEMPLO: flex-wrap: wrap;
 
-        3.- "justify-content : NOS PERMITE ESTABLECER EL ALINEADO DE LOS ELEMENTOS Y DISTRIBUIR EL ESPACIO SOBRANTE.
+        3.- "justify-content" : NOS PERMITE ESTABLECER EL ALINEADO DE LOS ELEMENTOS Y DISTRIBUIR EL ESPACIO SOBRANTE.
 
             VALORES : start | center | end | space-between | space-around | space-evenly
+
+        4.- "align-content" : NOS PERMITE CAMBIAR EL ALINEADO DE LOS ELEMENTOS CUANDO ÉSTOS OCUPAN MÚLTIPLES LÍNEAS.
+        
+            VALORES: start | center | end | space-between | space-around
+
+            EJEMPLO: CUÁNDO TIENEN "flex-wrap: wrap;" .
 
     */
 
@@ -60,5 +66,5 @@ body
     height: 90vh;
     /* align-items: center; */
 
-    align-content: start;
+    align-content: end;
 }
