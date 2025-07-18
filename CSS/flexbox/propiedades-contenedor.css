@@ -31,7 +31,7 @@ body
     display: flex;
     gap: 10px;
     flex-direction: row; /* SE ALINEAN LAS CAJAS DENTRO DE UN CONTENEDOR POR FILAS. */
-    flex-wrap: wrap-reverse; /* ESTAS CAJAS NO PUEDEN SOBREPASAR DE LA LÍNEA DE UN CONTENEDOR, POR LO TANTO, AL ADAPTAR A UN DISPOSITIVO MÓVIL CUALQUIERA POR TAMAÑO, SOBRA ESPACIO POR COLUMNAS DENTRO DE ELLA. */
+    flex-wrap: wrap; /* ESTAS CAJAS NO PUEDEN SOBREPASAR DE LA LÍNEA DE UN CONTENEDOR, POR LO TANTO, AL ADAPTAR A UN DISPOSITIVO MÓVIL CUALQUIERA POR TAMAÑO, SOBRA ESPACIO POR COLUMNAS DENTRO DE ELLA. */
 
     /*
 
@@ -57,7 +57,7 @@ body
 
     /* justify-content: center; */
 
-    /* height: 90vh; */
+    height: 90vh;
     /* align-items: center; */
 
     align-content: start;
