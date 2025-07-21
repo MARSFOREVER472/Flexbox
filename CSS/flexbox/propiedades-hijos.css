@@ -56,6 +56,13 @@ body
 {
     .box
     {
-        flex-grow: 1;
+        /* flex-grow: 1; */
+
+        flex-basis: 200px;
+    }
+
+    .special
+    {
+        flex-grow: 3;
     }
 }
