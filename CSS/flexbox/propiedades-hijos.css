@@ -118,4 +118,24 @@ body
 {
     height: 700px;
     align-items: start;
+
+    .one
+    {
+        align-self: stretch;
+    }
+
+    .two
+    {
+        align-self: start;
+    }
+
+    .three
+    {
+        align-self: center;
+    }
+
+    .four
+    {
+        align-self: end;
+    }
 }
