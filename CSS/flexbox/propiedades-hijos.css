@@ -69,8 +69,15 @@ body
 
 .basis
 {
+
     .box
     {
         flex-basis: 400px;
+        flex-grow: 1;
+    }
+
+    .special
+    {
+        flex-shrink: 5;
     }
 }
