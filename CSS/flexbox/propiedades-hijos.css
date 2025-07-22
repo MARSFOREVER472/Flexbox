@@ -74,10 +74,21 @@ body
     {
         flex-basis: 400px;
         flex-grow: 1;
+        flex-shrink: 1;
+
+        /* flex: 1 1 400px; */
     }
 
     .special
     {
         flex-shrink: 5;
+    }
+}
+
+.order
+{
+    .one
+    {
+        order: 4;
     }
 }
